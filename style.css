@@ -1,0 +1,194 @@
+body {
+    background-color: hsl(204, 43%, 93%);
+    font-family: 'Karla';
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+header {
+    font-family: 'Karla';
+    display: flex;
+    margin-left: 35px;
+}
+
+.title {
+    font-size: 15px;
+    margin-top: 20px;
+    color: hsl(179, 62%, 43%);
+}
+
+.subtitle-main {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    color: hsl(71, 73%, 54%);
+}
+
+.subtitles {
+    margin-top: 20px;
+    color: white;
+    font-size: 10px;
+}
+
+p {
+    margin: 0;
+    margin-left: 35px;
+}
+
+.paragraph-1 {
+    color: hsl(218, 22%, 67%);
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.price {
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.text-price {
+    display: inline-block;
+    font-weight: 400;
+    color: hsl(179, 42%, 71%);
+    font-size: 17px;
+}
+
+.paragraph-2 {
+    color: white;
+    margin-top: 10px;
+}
+
+.paragraph-3 {
+    font-weight: 400;
+    margin-top: 2px;
+    font-size: 14px;
+    line-height: 22px;
+    color: hsl(0, 0%, 90%);
+}
+
+.grid-item1 {
+    background-color: white;
+    width: 670px;
+    height: 250px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.squares {
+    display: flex;
+}
+
+.grid-item2 {
+    flex: 1;
+    width: 335px;
+    height: 260px;
+    background-color: hsl(179, 61%, 43%);
+    margin: 0;
+    border-bottom-left-radius: 5px;
+}
+
+.grid-item3 {
+    flex: 1;
+    width: 335px;
+    height: 260px;
+    background-color: hsl(179, 47%, 51%);
+    margin: 0;
+    border-bottom-right-radius: 5px;
+}
+
+button {
+    font-family: 'Karla';
+    background-color: hsl(71, 73%, 54%);
+    font-weight: 700;
+    color: hsl(204, 43%, 93%);
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s;
+    user-select: none;
+
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: 35px;
+    padding: 15px 100px;
+}
+
+button:hover {
+    background-color: hsl(71, 62%, 48%);
+}
+
+@media (min-width: 375px) and (max-width: 450px) {
+    html {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .squares {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header {
+        margin-left: 30px;
+    }
+
+    p {
+        margin-left: 30px;
+    }
+
+    .grid-item1 {
+        width: 335px;
+        height: 280px;
+    }
+
+    .grid-item2 {
+        border-bottom-left-radius: 0;
+    }
+
+    .grid-item3 {
+        border-bottom-left-radius: 5px;
+    }
+
+    button {
+        margin-left: 30px;
+        margin-bottom: 20px;
+        padding: 15px 110px;
+    }
+
+    .title {
+        font-size: 11px;
+        margin-bottom: 10px;
+    }
+
+    .subtitle-main {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .subtitles {
+        margin-top: 15px;
+    }
+
+    .paragraph-1::before {
+        content: "Gain access to our full library of tutorials\A along with expert code reviews. Perfect for\A any developers who are serious about\A honing their skills. \A \A";
+        white-space: pre;
+        line-height: 25px;
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    .paragraph-3 {
+        margin-top: 5px;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+}
