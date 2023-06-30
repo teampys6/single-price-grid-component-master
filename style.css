@@ -129,7 +129,7 @@ button:hover {
 @media (min-width: 375px) and (max-width: 450px) {
     html {
         margin-top: 60px;
-        margin-bottom: 60px;
+        margin-bottom: 70px;
     }
 
     .squares {
@@ -179,7 +179,7 @@ button:hover {
     }
 
     .paragraph-1::before {
-        content: "Gain access to our full library of tutorials\A along with expert code reviews. Perfect for\A any developers who are serious about\A honing their skills. \A \A";
+        content: "Gain access to our full library of tutorials\A along with expert code reviews. Perfect for\A any developers who are serious about\A honing their skills. \A \A \A";
         white-space: pre;
         line-height: 25px;
         font-weight: 400;
