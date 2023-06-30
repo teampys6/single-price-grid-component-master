@@ -129,7 +129,6 @@ button:hover {
 @media (min-width: 375px) and (max-width: 450px) {
     html {
         margin-top: 50px;
-        margin-bottom: 70px;
     }
 
     .squares {
@@ -190,5 +189,9 @@ button:hover {
         margin-top: 5px;
         font-size: 15px;
         margin-bottom: 20px;
+    }
+
+    .grid-item3 {
+        margin-bottom: 50px;
     }
 }
